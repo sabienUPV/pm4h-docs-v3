@@ -88,6 +88,12 @@ const config: Config = {
         },
         {
           type: 'doc',
+          docId: 'process-miner/overview/intro',
+          position: 'left',
+          label: 'Process Miner',
+        },
+        {
+          type: 'doc',
           docId: 'faq/frequent-asked-question',
           position: 'left',
           label: 'FAQ',
