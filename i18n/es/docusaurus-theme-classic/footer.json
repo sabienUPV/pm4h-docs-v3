@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Contact": {
+    "message": "Contact",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introduction",
+    "description": "The label of footer link with label=Introduction linking to /intro/intro"
+  },
+  "link.item.label.Perspectives": {
+    "message": "Perspectives",
+    "description": "The label of footer link with label=Perspectives linking to /perspectives/main-perspective"
+  },
+  "link.item.label.FAQ": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=FAQ linking to /faq/frequent-asked-question"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/PM4H1"
+  },
+  "link.item.label.Youtube": {
+    "message": "Youtube",
+    "description": "The label of footer link with label=Youtube linking to https://www.youtube.com/watch?v=cFbj9UDo2bE&list=PLvrk1d0K79BgJM03xPdeZCo-jwxQo9CM0"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/company/pm4h"
+  },
+  "link.item.label.Get in touch": {
+    "message": "Get in touch",
+    "description": "The label of footer link with label=Get in touch linking to https://pm4health.com/get-in-touch/"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 PM4H, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

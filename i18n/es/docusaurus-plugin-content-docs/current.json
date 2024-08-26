@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "Introducción",
+    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.faq": {
+    "message": "Preguntas frecuentes",
+    "description": "The label for category faq in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.perspectives": {
+    "message": "Perspectivas",
+    "description": "The label for category perspectives in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Main perspective menu": {
+    "message": "Menú en perspectiva Main",
+    "description": "The label for category Main perspective menu in sidebar tutorialSidebar"
+  }
+}

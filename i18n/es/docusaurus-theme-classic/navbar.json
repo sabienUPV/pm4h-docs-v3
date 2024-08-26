@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "PM4H",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "PM4H",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Introduction": {
+    "message": "Introduction",
+    "description": "Navbar item with label Introduction"
+  },
+  "item.label.Perspectives": {
+    "message": "Perspectives",
+    "description": "Navbar item with label Perspectives"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
+  }
+}
