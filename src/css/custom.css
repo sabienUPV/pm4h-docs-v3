@@ -26,12 +26,31 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-background: #121212; /* Fondo principal, muy oscuro */
+  --ifm-color-surface: #1E1E1E; /* Fondo de elementos sobre el fondo principal */
+  --ifm-color-on-background: #E0E0E0; /* Texto sobre fondo oscuro */
+  --ifm-color-on-surface: #E0E0E0; /* Texto sobre superficies */
+  --ifm-color-primary: #50A0C6; /* El color principal pero más claro para destacar sobre fondo oscuro */
+  --ifm-color-primary-dark: #4190B0;
+  --ifm-color-primary-darker: #3A81A0;
+  --ifm-color-primary-darkest: #306D85;
+  --ifm-color-primary-light: #61B4D9;
+  --ifm-color-primary-lighter: #74C5E3;
+  --ifm-color-primary-lightest: #8ED3EB;
+  /* --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary-lightest: #4fddbf; */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom: Improve the contrast of the hero banner */
+[data-theme='dark'] .hero--primary {
+  /* Custom: Prevent the hero text being black */
+  --ifm-hero-text-color: var(--ifm-color-on-background); /* Texto del hero banner */
+  /* Custom: Make the hero background darker */
+  --ifm-hero-background-color: #0A2735; /* Azul oscuro más cercano a negro, pero manteniendo el tono azul */
 }
