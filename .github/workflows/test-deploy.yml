@@ -8,7 +8,7 @@ on:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 env:
-  DOCUSAURUS_URL: http://pr-${{ github.event.number }}-pm4h-docs.sabienupv.surge.sh
+  DOCUSAURUS_URL: https://pr-${{ github.event.number }}-pm4h-docs-sabienupv.surge.sh
   DOCUSAURUS_BASE_URL: /
 
 jobs:
