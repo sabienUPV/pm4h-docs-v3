@@ -1,4 +1,4 @@
-name: [TEST] Build & Deploy Preview Website to Surge
+name: Build and Deploy Preview Website to Surge
 
 on:
   pull_request:
