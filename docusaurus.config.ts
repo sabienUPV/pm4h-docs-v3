@@ -18,6 +18,10 @@ const config: Config = {
   organizationName: 'sabienUPV', // Usually your GitHub org/user name.
   projectName: 'pm4h-docs-v3', // Usually your repo name.
 
+  // Set trailingSlash, following Docusaurus docs advice for GitHub pages:
+  // https://docusaurus.io/docs/deployment#docusaurusconfigjs-settings
+  trailingSlash: true,
+
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
