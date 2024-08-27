@@ -7,9 +7,13 @@ on:
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
+env:
+  DOCUSAURUS_URL: http://pr-${{ github.event.number }}-pm4h-docs.sabienupv.surge.sh
+  DOCUSAURUS_BASE_URL: /
+
 jobs:
-  test-deploy:
-    name: Test deployment
+  test-build:
+    name: Build preview website
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,3 +28,36 @@ jobs:
         run: npm ci
       - name: Test build website
         run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: ./build
+
+  test-deploy:
+    name: Deploy Preview
+    needs: test-build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: ./build
+
+      - name: Install dependencies
+        run: npm ci
+      - name: Deploy Preview
+        run: npm run surge ./build --domain ${{ env.DOCUSAURUS_URL }}
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}

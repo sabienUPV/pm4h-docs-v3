@@ -8,10 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://pm4health.com/',
+  url: process.env.DOCUSAURUS_URL || 'https://pm4health.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/pm4h-docs-v3/',
+  baseUrl: process.env.DOCUSAURUS_BASE_URL || '/', // '/pm4h-docs-v3/'
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

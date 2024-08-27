@@ -1,0 +1,30 @@
+# Takedown test (preview) website when the PR is closed
+name: Test teardown
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+env:
+  DOCUSAURUS_URL: http://pr-${{ github.event.number }}-pm4h-docs.sabienupv.surge.sh
+
+jobs:
+  teardown:
+    name: Teardown preview website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Teardown preview website
+        run: npm run surge teardown ${{ env.DOCUSAURUS_URL }}
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
