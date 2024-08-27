@@ -5,16 +5,15 @@ import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: JSX.Element;
-  imgSrc: string;
-  imgAlt: string;
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: <Translate>Download the application</Translate>,
-    imgSrc: './img/imgDownload.png',
-    imgAlt: 'Download the toolkit',
+    Svg: require('@site/static/img/imgDownload.svg').default,
+    //imgAlt: 'Download the toolkit',
     description: (
       <Translate>
         With the toolkit you can become a real (digital) transformer to help clinicians in their daily practice
@@ -23,8 +22,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: <Translate>Start doing things</Translate>,
-    imgSrc: './img/imgNextSteps.png',
-    imgAlt: 'Start doing things',
+    Svg: require('@site/static/img/imgNextSteps.svg').default,
+    //imgAlt: 'Start doing things',
     description: (
       <Translate>
         Start your path with a simple example that let you know how easy is to use PMApp and how much benefits it provides
@@ -33,8 +32,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: <Translate>Beyond the stars</Translate>,
-    imgSrc: './img/imgTutorial.png',
-    imgAlt: 'Beyond the stars',
+    Svg: require('@site/static/img/imgTutorial.svg').default,
+    //imgAlt: 'Beyond the stars',
     description: (
       <Translate>
         Extend your knowledge by consulting our tutorials plenty of details and ideas to guide you in the process
@@ -43,23 +42,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, imgSrc, imgAlt, description}: FeatureItem) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={imgSrc} className={styles.featureSvg} alt={imgAlt} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
 // Default template from Docusaurus
-// (this is probably a better version because it uses SVG images,
-// but because we use PNG images, we need a different version)
 
 // type FeatureItem = {
 //   title: string;
@@ -100,19 +83,19 @@ function Feature({title, imgSrc, imgAlt, description}: FeatureItem) {
 //   },
 // ];
 
-// function Feature({title, Svg, description}: FeatureItem) {
-//   return (
-//     <div className={clsx('col col--4')}>
-//       <div className="text--center">
-//         <Svg className={styles.featureSvg} role="img" />
-//       </div>
-//       <div className="text--center padding-horiz--md">
-//         <Heading as="h3">{title}</Heading>
-//         <p>{description}</p>
-//       </div>
-//     </div>
-//   );
-// }
+function Feature({title, Svg, description}: FeatureItem) {
+  return (
+    <div className={clsx('col col--4')}>
+      <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
+      </div>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
 
 export default function HomepageFeatures(): JSX.Element {
   return (
