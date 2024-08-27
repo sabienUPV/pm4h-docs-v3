@@ -15,6 +15,11 @@ jobs:
     name: Teardown preview website
     runs-on: ubuntu-latest
     steps:
+      # We need to checkout the code again to get the package-lock.json file,
+      # which is used to be able to reuse cached dependencies by npm in previous runs
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
