@@ -15,16 +15,13 @@ jobs:
     name: Teardown preview website
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
 
       - name: Teardown preview website
-        run: npm run surge teardown ${{ env.DOCUSAURUS_URL }}
+        run: npx --yes surge teardown ${{ env.DOCUSAURUS_URL }}
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
