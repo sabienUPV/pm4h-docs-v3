@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Process Mining for Health', // Usually your GitHub org/user name.
-  projectName: 'PM4H', // Usually your repo name.
+  organizationName: 'sabienUPV', // Usually your GitHub org/user name.
+  projectName: 'pm4h-docs-v3', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
