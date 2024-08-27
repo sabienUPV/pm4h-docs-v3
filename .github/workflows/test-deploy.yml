@@ -40,6 +40,7 @@ jobs:
     needs: test-build
 
     # Prevent multiple deployments from running concurrently
+    # (https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#concurrency)
     concurrency:
       group: staging-ci-${{ github.ref }}
       cancel-in-progress: true
