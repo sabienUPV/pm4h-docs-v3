@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  DOCUSAURUS_URL: http://pr-${{ github.event.number }}-pm4h-docs.sabienupv.surge.sh
+  DOCUSAURUS_URL: https://pr-${{ github.event.number }}-pm4h-docs-sabienupv.surge.sh
 
 jobs:
   teardown:
