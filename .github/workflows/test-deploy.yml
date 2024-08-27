@@ -39,6 +39,11 @@ jobs:
     name: Deploy Preview to Surge
     needs: test-build
 
+    # Prevent multiple deployments from running concurrently
+    concurrency:
+      group: staging-ci-${{ github.ref }}
+      cancel-in-progress: true
+
     # Deploy to the staging environment
     # (this eliminates the need to add custom comments to the PR to show the deployment URL,
     # because the URL that we pass here will be shown by GitHub in the PR as a deployment URL)
