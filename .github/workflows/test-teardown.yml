@@ -30,19 +30,3 @@ jobs:
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-
-      - name: Add comment to PR
-        uses: actions/github-script@v7
-        if: always()
-        with:
-          script: |
-            const success = '${{ job.status }}' === 'success';
-            const actionUrl = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}';
-            const body = success ? '✅🗑️ Preview Website has been torn down. It is no longer available. Re-open the pull request to re-deploy it.' : `❌🗑️ Preview Website failed to be torn down.\nYou will need to tear it down manually or re-run the job.\nIf you don't, the preview website will still be available until you do.\n(Note: If you re-open the PR, the preview website will be re-deployed in the same location, overwriting the previous one, so you should not need to worry about having multiple instances)\n\nCheck the GitHub action for details: ${actionUrl}`;
-            
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: body
-            })
