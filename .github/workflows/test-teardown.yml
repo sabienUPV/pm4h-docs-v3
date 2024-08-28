@@ -12,7 +12,12 @@ env:
 
 jobs:
   teardown:
-    name: Teardown preview website   
+    name: Teardown preview website 
+    
+    # Make deployment to the staging environment inactive
+    environment:
+      name: staging
+
     runs-on: ubuntu-latest
     steps:
       # We need to checkout the code again to get the package-lock.json file,

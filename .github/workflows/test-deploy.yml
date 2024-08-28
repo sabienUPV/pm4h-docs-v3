@@ -43,6 +43,13 @@ jobs:
   test-deploy:
     name: Deploy Preview to Surge
     needs: test-build
+
+    # Deploy to the staging environment
+    environment:
+      name: staging
+      url: ${{ env.DOCUSAURUS_URL }}
+
+
     runs-on: ubuntu-latest
     steps:
       # We need to checkout the code again to get the package-lock.json file,
