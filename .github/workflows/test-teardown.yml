@@ -35,3 +35,20 @@ jobs:
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+  set-deployment-status:
+    name: Set deployment status
+    needs: teardown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set deployment status
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.repos.createDeploymentStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              deployment_id: context.payload.deployment.id,
+              state: 'inactive',
+              environment: 'staging',
+              description: 'Preview website has been torn down'
+            })
