@@ -10,7 +10,8 @@ on:
 # Prevent multiple deployments from running concurrently
 # (https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#concurrency)
 concurrency:
-  group: staging-ci-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
   DOCUSAURUS_URL: https://pr-${{ github.event.number }}-pm4h-docs-sabienupv.surge.sh
