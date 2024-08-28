@@ -12,8 +12,13 @@ env:
 
 jobs:
   teardown:
-    name: Teardown preview website 
+    name: Teardown preview website
     runs-on: ubuntu-latest
+
+    # Permission to delete previous deployments
+    permissions:
+      deployments: write
+
     steps:
       # We need to checkout the code again to get the package-lock.json file,
       # which is used to be able to reuse cached dependencies by npm in previous runs
