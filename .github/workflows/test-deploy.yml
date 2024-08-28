@@ -17,27 +17,7 @@ env:
   DOCUSAURUS_BASE_URL: /
 
 jobs:
-  # This is done to prevent duplicate deployments for the same commit
-  check-deploy:
-    name: Check if there is a deployment already for the same commit (SHA) in the PR
-    runs-on: ubuntu-latest
-    outputs:
-      deployments: ${{ steps.check-deploy.outputs.deployments }}
-    steps:
-      - uses: actions/github-script@v7
-        id: check-deploy
-        with:
-          script: |
-            const deployments = await github.rest.repos.listDeployments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              environment: 'staging',
-              ref: context.payload.pull_request.head.sha
-            });
-            core.setOutput('deployments', deployments.data.length);
-  build:
-    needs: check-deploy
-    if: needs.check-deploy.outputs.deployments == 0
+  test-build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
     steps:
@@ -60,10 +40,9 @@ jobs:
           name: build-artifact
           path: ./build
 
-  deploy:
+  test-deploy:
     name: Deploy Preview to Surge
-    needs: [check-deploy, build]
-    if: needs.check-deploy.outputs.deployments == 0
+    needs: test-build
 
     # Deploy to the staging environment
     environment:
