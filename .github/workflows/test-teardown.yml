@@ -12,7 +12,13 @@ env:
 
 jobs:
   teardown:
-    name: Teardown preview website 
+    name: Teardown preview website
+
+    # Create a deployment to the staging environment
+    # so that the teardown process is shown in the PR
+    environment:
+      name: staging
+
     runs-on: ubuntu-latest
     steps:
       # We need to checkout the code again to get the package-lock.json file,
