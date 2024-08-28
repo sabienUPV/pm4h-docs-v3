@@ -44,16 +44,12 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const deploymentData = await github.rest.repos.listDeployments({
+            const deploymentId = await github.rest.repos.listDeployments({
               owner: context.repo.owner,
               repo: context.repo.repo,
               environment: 'staging',
               ref: context.ref
-            });
-
-            console.log(deploymentData);
-
-            const deploymentId = deploymentData[0].id;
+            }).then(({ data }) => data[0].id);
             
             await github.rest.repos.createDeploymentStatus({
               owner: context.repo.owner,
