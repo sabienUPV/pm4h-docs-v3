@@ -13,11 +13,6 @@ env:
 jobs:
   teardown:
     name: Teardown preview website 
-    
-    # Make deployment to the staging environment inactive
-    environment:
-      name: staging
-
     runs-on: ubuntu-latest
     steps:
       # We need to checkout the code again to get the package-lock.json file,
@@ -35,6 +30,30 @@ jobs:
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+
+      - name: Delete previous deployments
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const deployments = await github.rest.repos.listDeployments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              environment: 'staging',
+              ref: context.payload.pull_request.head.ref
+            });
+            for (const deployment of deployments.data) {
+              await github.rest.repos.createDeploymentStatus({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                deployment_id: deployment.id,
+                state: 'inactive'
+              });
+              await github.rest.repos.deleteDeployment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                deployment_id: deployment.id
+              });
+            }
 
       - name: Add comment to PR
         uses: actions/github-script@v7
