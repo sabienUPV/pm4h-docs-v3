@@ -18,7 +18,36 @@ env:
   DOCUSAURUS_BASE_URL: /
 
 jobs:
-  test-build:
+  # This is done because cancelled runs are shown as failed in the GitHub UI,
+  # which can be misleading, because cancel-in-progress will cancel the previous run
+  # if a new one is triggered, and that should not be shown as a failure
+  # (and when the PR is re-opened and there are new commits, the workflow is triggered twice,
+  # so for that case we need to cancel the extra run, and it should not be shown as a failure)
+  # (Reference: https://github.com/orgs/community/discussions/8336)
+  delete-cancelled-runs-for-this-workflow:
+    name: Delete cancelled runs for this workflow
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: runs } = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: context.workflow,
+              status: 'cancelled'
+            });
+            
+            for (const run of runs) {
+              if (run.id !== context.runId) {
+                await github.rest.actions.deleteWorkflowRun({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  run_id: run.id
+                });
+              }
+            }
+  build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
     steps:
@@ -41,9 +70,9 @@ jobs:
           name: build-artifact
           path: ./build
 
-  test-deploy:
+  deploy:
     name: Deploy Preview to Surge
-    needs: test-build
+    needs: build
 
     # Deploy to the staging environment
     environment:
