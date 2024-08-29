@@ -44,7 +44,7 @@ jobs:
               status: 'cancelled'
             });
             
-            for (const run of runs) {
+            for (const run of runs.workflow_runs) {
               if (run.id !== context.runId) {
                 await github.rest.actions.deleteWorkflowRun({
                   owner: context.repo.owner,
