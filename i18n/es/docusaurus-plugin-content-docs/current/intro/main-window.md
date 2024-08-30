@@ -10,7 +10,7 @@ La pantalla primera pantalla de PMApp es la que se muestra tras lanzar un experi
 
 Figura 1. Primera pantalla de PMApp tras lanzar el experimento
 
-**(1) Barra superior.** En la parte izquierda de esta barra se encuentra el nombre del experimento, a la derecha se emplaza la versión de la aplicación y la ayuda, que haciendo clic sobre el icono abre un navegador de Internet. Además, permite minimizar, maximizar y cerrar la aplicación, cerrando totalmente el experimento, lo que provocaría perder los cambios realizados hasta el momento. Para evitar esto leer más en [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/more-options-menu).
+**(1) Barra superior.** En la parte izquierda de esta barra se encuentra el nombre del experimento, a la derecha se emplaza la versión de la aplicación y la ayuda, que haciendo clic sobre el icono abre un navegador de Internet. Además, permite minimizar, maximizar y cerrar la aplicación, cerrando totalmente el experimento, lo que provocaría perder los cambios realizados hasta el momento. Para evitar esto leer más en [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/more-options-menu.md).
 
 **(2) Perspectivas.** El resultado del experimento lanzado se muestra en la perspectiva llamada **MAIN** de la barra inferior. Esta perspectiva contendrá tantas pestañas (en la parte superior de la pantalla) como vistas de proceso de ese mismo tipo hayan **(2.1) – dichas vistas de proceso se pueden cerrar con el botón (x) emplazado a la derecha –**. Existen diferentes perspectivas y cada una, a su vez, contendrá una o varias pestañas.
 
@@ -22,7 +22,7 @@ A continuación, se muestran las perspectivas que existen en la versión actual 
 
 ### Main 
 
-Representa vistas de procesos y contendrá tantas pestañas como vistas de proceso hayan. Una vez se ejecuta un experimento, en la pestaña **PROCESS** se muestra la vista de proceso que se genera a partir de los datos identificados en la configuración del experimento. Para más detalle consultar [¿Qué encontrar en la perspectiva Main?](../perspectives/main-perspective).
+Representa vistas de procesos y contendrá tantas pestañas como vistas de proceso hayan. Una vez se ejecuta un experimento, en la pestaña **PROCESS** se muestra la vista de proceso que se genera a partir de los datos identificados en la configuración del experimento. Para más detalle consultar [¿Qué encontrar en la perspectiva Main?](../perspectives/main-perspective.md).
 
 ![primera pantalla - process](/img/primera-pantalla-process.png "primera pantalla – process")
 
@@ -38,7 +38,7 @@ Figura 3. Progress
 
 ### Experiment configuration
 
-En esta perspectiva se muestra información referente al experimento y se puede consultar en el menú **More Options**. Para más información consulta [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/more-options-menu).
+En esta perspectiva se muestra información referente al experimento y se puede consultar en el menú **More Options**. Para más información consulta [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/more-options-menu.md).
 
 ![experiment configuration](/img/experiment-configuration.png "experiment configuration")
 
@@ -46,7 +46,7 @@ Figura 4. Experiment configuration
 
 ### Transition information
 
-Esta es una perspectiva que muestra información sobre las transiciones en una vista de proceso. Para más información consultar [Perspectiva Transition Information ](../perspectives/transition-information-perspective).
+Esta es una perspectiva que muestra información sobre las transiciones en una vista de proceso. Para más información consultar [Perspectiva Transition Information ](../perspectives/transition-information-perspective.md).
 
 ![transition information](/img/transition-information.png "transition information")
 
@@ -54,7 +54,7 @@ Figura 5. Transition Information
 
 ### Node information
 
-Esta es una perspectiva que muestra información sobre los nodos de una vista de proceso. Para más información consultar [Perspectiva Node Information](../perspectives/node-information-perspective).
+Esta es una perspectiva que muestra información sobre los nodos de una vista de proceso. Para más información consultar [Perspectiva Node Information](../perspectives/node-information-perspective.md).
 
 ![node information](/img/node-information.png "node information")
 
@@ -62,7 +62,7 @@ Figura 6. Node Information
 
 ### Trace information 
 
-Esta es una perspectiva que muestra información sobre las trazas de una determinada vista de proceso. Para más información consultar [Perspectiva Trace Information](../perspectives/trace-information-perspective).
+Esta es una perspectiva que muestra información sobre las trazas de una determinada vista de proceso. Para más información consultar [Perspectiva Trace Information](../perspectives/trace-information-perspective.md).
 
 ![trace information](/img/trace-information.png "trace information")
 
@@ -70,10 +70,10 @@ Figura 7. Trace Information
 
 ### Clustering
 
-El **_clustering_** es una perspectiva que encuentra similitudes en los datos y genera diferentes grupos, muy útil en el caso de vistas de procesos muy complejos, difíciles de entender (lo que se conoce como **_spaghetti effect_**). Para más información consultar [Perspectiva Clustering](../perspectives/clustering-perspective).
+El **_clustering_** es una perspectiva que encuentra similitudes en los datos y genera diferentes grupos, muy útil en el caso de vistas de procesos muy complejos, difíciles de entender (lo que se conoce como **_spaghetti effect_**). Para más información consultar [Perspectiva Clustering](../perspectives/clustering-perspective.md).
 
 ![clustering](/img/clustering.png "clustering")
 
 Figura 8. Clustering
 
-Para más información sobre cada perspectiva, consultar [¿Qué encontrar en la perspectiva Main?](../perspectives/main-perspective).
+Para más información sobre cada perspectiva, consultar [¿Qué encontrar en la perspectiva Main?](../perspectives/main-perspective.md).

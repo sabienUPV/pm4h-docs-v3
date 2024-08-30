@@ -19,8 +19,8 @@ Figura 1.a. Información sobre el nodo (**_tooltip_**)
 Figura 1.b Información sobre la transición (**_tooltip_**)
 
 Además, haciendo clic con el botón derecho sobre un nodo o transición, aparece un menú contextual (o secundario) en el que aparecen dos opciones (figura 10).
-*   **Show Information** (Mostrar información). Para más información consultar [Perspectiva Node Information](./node-information-perspective) o [Perspectiva Transition Information](./transition-information-perspective).
-*   **Show Traces** (Mostrar trazas). Abre una nueva perspectiva con información de las trazas que atraviesan dicho nodo/transición. Para más información consultar [Perspectiva Trace Information](./trace-information-perspective)
+*   **Show Information** (Mostrar información). Para más información consultar [Perspectiva Node Information](./node-information-perspective.md) o [Perspectiva Transition Information](./transition-information-perspective.md).
+*   **Show Traces** (Mostrar trazas). Abre una nueva perspectiva con información de las trazas que atraviesan dicho nodo/transición. Para más información consultar [Perspectiva Trace Information](./trace-information-perspective.md)
 
 ![menu secundario](/img/menu-secundario.png "menu secundario")
 
@@ -74,8 +74,8 @@ Por otra parte, esta perspectiva permite realizar ciertas acciones sobre las vis
 
 Figura 7. Menú izquierdo
 
-*   **Groups (1)**. A partir de las opciones disponibles, se pueden hacer estratificaciones que generan nuevas vistas de proceso que permitan análisis más ágiles. Para más información consultar [¿Qué puedo hacer en el menú Groups?](./menu/groups-menu).
-*   **Enhancements (2).** Aquí se permite agregar mapas de color a las vistas de proceso disponibles y que ayudarán a resaltar diferentes aspectos según el criterio elegido. Más información: [¿Qué puedo hacer en el menú Enhacements?](./menu/enhancement-menu).
-*   **Statistics & Charts (3)**. En este menú se pueden configurar las estadísticas que se quieren mostrar, eligiendo el tipo de datos y la representación más adecuada (gráficos, tablas…). Más información: [¿Qué puedo hacer en el menú Statistics and Charts?](./menu/statistics-and-charts-menu).
-*   **Other views (4).** Además de la perspectiva principal (**MAIN**), pueden existir otras, donde algunas de ellas estarán disponibles desde este menú. Más información: [¿Qué puedo hacer en el menú Other views?](./menu/other-views-menu).
-*   **More options (5).** En este menú se muestra información relativa al experimento. Más información: [¿Qué puedo hacer en el menú More options?](./menu/more-options-menu).
+*   **Groups (1)**. A partir de las opciones disponibles, se pueden hacer estratificaciones que generan nuevas vistas de proceso que permitan análisis más ágiles. Para más información consultar [¿Qué puedo hacer en el menú Groups?](./menu/groups-menu.md).
+*   **Enhancements (2).** Aquí se permite agregar mapas de color a las vistas de proceso disponibles y que ayudarán a resaltar diferentes aspectos según el criterio elegido. Más información: [¿Qué puedo hacer en el menú Enhacements?](./menu/enhancement-menu.md).
+*   **Statistics & Charts (3)**. En este menú se pueden configurar las estadísticas que se quieren mostrar, eligiendo el tipo de datos y la representación más adecuada (gráficos, tablas…). Más información: [¿Qué puedo hacer en el menú Statistics and Charts?](./menu/statistics-and-charts-menu.md).
+*   **Other views (4).** Además de la perspectiva principal (**MAIN**), pueden existir otras, donde algunas de ellas estarán disponibles desde este menú. Más información: [¿Qué puedo hacer en el menú Other views?](./menu/other-views-menu.md).
+*   **More options (5).** En este menú se muestra información relativa al experimento. Más información: [¿Qué puedo hacer en el menú More options?](./menu/more-options-menu.md).

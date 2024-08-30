@@ -92,7 +92,7 @@ Figura 8. Significancia estadística
 
 ### Abstracciones (3)
 
-Por último tenemos las abstracciones que, al igual que en [¿Qué puedo hacer en el menú Groups?](./groups-menu), permite lanzar un nuevo experimento de un % de los datos totales en una nueva PMApp.
+Por último tenemos las abstracciones que, al igual que en [¿Qué puedo hacer en el menú Groups?](./groups-menu.md), permite lanzar un nuevo experimento de un % de los datos totales en una nueva PMApp.
 Aunque no es necesario extraer siempre esos datos, al seleccionar el % de los datos totales que queremos que se muestren, éstos se resaltarán en la vista de proceso automáticamente, quedando de un color más tenue el resto de datos que se descartan, como aparece en la figura 26.
 
 :::warning    

@@ -18,7 +18,7 @@ Si abres PMApp, haces clic en el botón **OPEN**, una vez en el asistente puedes
 
 ## ¿Por qué una vez he organizado los nodos, no se muestran en la misma posición la siguiente vez que lanzo el experimento?
 
-Los nodos de una vista de proceso los puedes organizar de manera que te resulte visualmente más legible. Para que estos cambios sean permanentes, debes guardar un archivo de posiciones desde el menú ubicado en cada una de las pestañas de vista de proceso. Para más información de cómo hacerlo visita la página [¿Qué encontrar en la perspectiva MAIN?](../perspectives/main-perspective)
+Los nodos de una vista de proceso los puedes organizar de manera que te resulte visualmente más legible. Para que estos cambios sean permanentes, debes guardar un archivo de posiciones desde el menú ubicado en cada una de las pestañas de vista de proceso. Para más información de cómo hacerlo visita la página [¿Qué encontrar en la perspectiva MAIN?](../perspectives/main-perspective.md)
 
 ## ¿Por qué a veces parece que PMApp no responde?
 
@@ -26,8 +26,8 @@ Pueden suceder dos cosas, la primera es que esté haciendo cálculos internament
 
 ### ¿Puedo hacer algo para que no tarde tanto mi experimento cada vez que lo lanzo?
 
-Una vez hayas lanzado un experimento, puedes guardarlo desde la opción **_Save Experiment_** del menú [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/More-options-menu). Así, la siguiente vez que vayas a lanzar el experimento, puedes utilizar el archivo que se genera con extensión ".rnr.zip", y al cual le has dado nombre. Este archivo contiene muchos de los cálculos que se hacen al lanzar un experimento, lo que agilizará todo el proceso la próxima vez.
+Una vez hayas lanzado un experimento, puedes guardarlo desde la opción **_Save Experiment_** del menú [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/More-options-menu.md). Así, la siguiente vez que vayas a lanzar el experimento, puedes utilizar el archivo que se genera con extensión ".rnr.zip", y al cual le has dado nombre. Este archivo contiene muchos de los cálculos que se hacen al lanzar un experimento, lo que agilizará todo el proceso la próxima vez.
 
 ### ¿Puedo cambiarle el nombre a las pestañas que aparecen al lanzar un nuevo grupo?
 
-Sí, cada una de estas pestañas muestran una vista de proceso, en el cual hay disponible un menú, dónde una de las opciones es mostrar una pantalla con información sobre el proceso. En esa pantalla hay un campo llamado **_Name_** que se puede modificar para cambiarle el nombre a dicha pestaña. Para más información consultar [¿Qué encontrar en la perspectiva Main?](../perspectives/main-perspective).
+Sí, cada una de estas pestañas muestran una vista de proceso, en el cual hay disponible un menú, dónde una de las opciones es mostrar una pantalla con información sobre el proceso. En esa pantalla hay un campo llamado **_Name_** que se puede modificar para cambiarle el nombre a dicha pestaña. Para más información consultar [¿Qué encontrar en la perspectiva Main?](../perspectives/main-perspective.md).
