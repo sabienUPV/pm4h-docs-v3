@@ -24,5 +24,15 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '🚀 Preview Website deployment URL: ${{ env.DOCUSAURUS_URL }}\n\nTo know if the preview website has been deployed, check if this PR shows a message about an active deployment.\nFor convenience, a "preview" label will be added to this PR when the deployment is available, and it will be removed when torn down.\nIf this PR is closed or merged, the deployment will be automatically torn down. If you re-open the PR, a new deployment will be performed.'
+              body: `### 🚀 Preview Deployment
+              A preview of this Pull Request is available at the following URL:
+
+              🔗 **${{ env.DOCUSAURUS_URL }}**
+
+              This preview will be automatically updated with new commits and will be active until the PR is merged or closed.
+
+              The \`preview\` label is automatically added or removed to indicate if the preview is live.
+
+              **_Note:_** You can also view the deployment status in this PR. If you see an 'active deployment' message at the bottom, it means the preview is live. You can click on it for more details. If the deployment failed, a failure message should appear in the 'Checks' section.`
+              `
             })
