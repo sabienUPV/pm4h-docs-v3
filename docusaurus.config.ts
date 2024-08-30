@@ -115,15 +115,15 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/docs/intro/intro',
+              to: 'docs/intro', // Note: If the file is named 'intro.md' in the 'intro' folder, the path should be 'docs/intro', not 'docs/intro/intro', because it seems that Docusaurus is able to detect that the file is named the same as the folder, so it won't double the name in the URL.
             },
             {
               label: 'Perspectives',
-              to: '/docs/perspectives/main-perspective',
+              to: 'docs/perspectives/main-perspective',
             },
             {
               label: 'FAQ',
-              to: '/docs/faq/frequent-asked-question',
+              to: 'docs/faq/frequent-asked-question',
             },
           ],
         },
