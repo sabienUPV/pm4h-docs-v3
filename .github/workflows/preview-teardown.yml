@@ -1,5 +1,4 @@
-# Takedown test (preview) website when the PR is closed
-name: Test teardown
+name: Teardown Preview Website from Surge
 
 on:
   pull_request:
