@@ -98,7 +98,7 @@ const config: Config = {
         },
         {
           type: 'doc',
-          docId: 'faq',
+          docId: 'faq/faq',
           position: 'left',
           label: 'FAQ',
         },
