@@ -6,7 +6,7 @@ sidebar_position: 1
 
 **Knowledge.zconf** file contains general semantic concepts to be used across [PMApp](../../pmapp/intro.md). Concepts can be consumed in the [Experiment designer](../intro.md) and from the semantic picker option is available in the [Ingestor editor](../ingestor-editor.md).
 
-The semantic picker is a drag and drop tool. The available concepts can be consumed in the Events ([SemanticEventMapperExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/semantic-event-mapper-extractor.md) and [NamedEventExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/named-event-extractor.md) blocks) and Trace Data ([SemanticDiscretizedData2](../../../../generaldocs/reference/api/blocks/trace-data-extractor/semantic-discretized-data2.md) and [SemanticMapperData2](../../../../generaldocs/reference/api/blocks/semantic-data-extractor/semantic-mapper-data2.md) blocks) tabs of the Ingestor editor.
+The semantic picker is a drag and drop tool. The available concepts can be consumed in the Events ([SemanticEventMapperExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/semantic-event-mapper-extractor.md) and [NamedEventExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/named-event-extractor.md) blocks) and Trace Data ([SemanticDiscretizedData2](../../../../generaldocs/reference/api/blocks/trace-data-extractor/semantic-discretized-data2.md) and [SemanticMapperData2](../../../../generaldocs/reference/api/blocks/trace-data-extractor/semantic-mapper-data2.md) blocks) tabs of the Ingestor editor.
 
 Semantic concepts in the Knowledge file can be:
 
