@@ -26,7 +26,7 @@ Pueden suceder dos cosas, la primera es que esté haciendo cálculos internament
 
 ### ¿Puedo hacer algo para que no tarde tanto mi experimento cada vez que lo lanzo?
 
-Una vez hayas lanzado un experimento, puedes guardarlo desde la opción **_Save Experiment_** del menú [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/More-options-menu.md). Así, la siguiente vez que vayas a lanzar el experimento, puedes utilizar el archivo que se genera con extensión ".rnr.zip", y al cual le has dado nombre. Este archivo contiene muchos de los cálculos que se hacen al lanzar un experimento, lo que agilizará todo el proceso la próxima vez.
+Una vez hayas lanzado un experimento, puedes guardarlo desde la opción **_Save Experiment_** del menú [¿Qué puedo hacer en el menú More Options?](../perspectives/menu/more-options-menu.md). Así, la siguiente vez que vayas a lanzar el experimento, puedes utilizar el archivo que se genera con extensión ".rnr.zip", y al cual le has dado nombre. Este archivo contiene muchos de los cálculos que se hacen al lanzar un experimento, lo que agilizará todo el proceso la próxima vez.
 
 ### ¿Puedo cambiarle el nombre a las pestañas que aparecen al lanzar un nuevo grupo?
 
