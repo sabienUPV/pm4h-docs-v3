@@ -19,7 +19,7 @@ Figure 1.a. Node information tooltip
 Figure 1.b Transition information tooltip
 
 Right-clicking on a node or transition brings a contextual menu with two options (figure 2)
-*	**Show Information**. For more information about this check [Node Information perspective](./node-information-perspective) or [Transition Information perspective](./transition-information-perspective.md).
+*	**Show Information**. For more information about this check [Node Information perspective](./node-information-perspective.md) or [Transition Information perspective](./transition-information-perspective.md).
 *	**Show Traces**. Opens a new perspective with information on the traces that traverse that node or transition. For more information check [Trace Information perspective](./trace-information-perspective.md).
 
 ![contextual_menu](/img/menu-secundario.png "contextual_menu")
