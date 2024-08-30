@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Interactive Process Mining (IPM) results from the application of Interactive Pattern Recognition methodologies to [Process Mining](./glossary#process-mining-pm) technologies. As a result, IPM is a paradigm that involves health professionals in the middle of the understanding of the process, until an [Interactive Process Indicator (IPI)](./glossary#interactive-process-indicator-ipi) is defined. The IPI can be computed from the data available in the system and through iterative [data rodeos](./glossary#data-rodeo) sessions.
+Interactive Process Mining (IPM) results from the application of Interactive Pattern Recognition methodologies to [Process Mining](./glossary.md#process-mining-pm) technologies. As a result, IPM is a paradigm that involves health professionals in the middle of the understanding of the process, until an [Interactive Process Indicator (IPI)](./glossary.md#interactive-process-indicator-ipi) is defined. The IPI can be computed from the data available in the system and through iterative [data rodeos](./glossary.md#data-rodeo) sessions.
 
 ![IPM](/img/ipm.png "IPM")
 Figure 1. Interactive Process Mining
@@ -15,7 +15,7 @@ Through data rodeos, health professionals will be able to:
 *	**analyze** and **validate** the process indicator and 
 *	be **trained** in the use of the process indicator.
 
-Once an **IPI** is defined, the health professional is ready to analyse the data by means of [PMApp](./glossary#interactive-process-mining-application-pmapp) tool. 
+Once an **IPI** is defined, the health professional is ready to analyse the data by means of [PMApp](./glossary.md#interactive-process-mining-application-pmapp) tool. 
 
 ## Stakeholders 
 
@@ -47,5 +47,5 @@ IPM is divided into three phases where the definition of the IPI is done:
 Figure 2. Interactive Process Mining process
 
 *	**Preparation phase**. It comprises the first contact with the health organization, is explained the scope of the project and steps to follow and is provided access to the raw data to the process miner.
-*	**Research phase**. The **process miner** uses [IPMT](./glossary#interactive-process-mining-toolkit-ipmt) to generate an experiment configuration ([runner](./glossary#runner)) file based on health professionals requirements during [datarodeos](./glossary#data-rodeo) sessions, being **PMApp** tool tailored based on this configuration file.
+*	**Research phase**. The **process miner** uses [IPMT](./glossary.md#interactive-process-mining-toolkit-ipmt) to generate an experiment configuration ([runner](./glossary.md#runner)) file based on health professionals requirements during [datarodeos](./glossary.md#data-rodeo) sessions, being **PMApp** tool tailored based on this configuration file.
 *	**Production phase**. **Health professionals** use **PMApp** in their daily practice.

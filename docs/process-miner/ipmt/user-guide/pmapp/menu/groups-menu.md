@@ -43,5 +43,5 @@ Figure 31. New process views tabs based on the group selection
 *   The **_Delete groups_** button clears the options selected in **_Categories_**.
 
 :::info
-The name of the tabs can be renamed. This can be done from the menu in each process view (each tab), clicking on the info button in the menu available in each process view. For more information go to [Main perspective](../main-perspective).
+The name of the tabs can be renamed. This can be done from the menu in each process view (each tab), clicking on the info button in the menu available in each process view. For more information go to [Main perspective](../main-perspective.md).
 :::

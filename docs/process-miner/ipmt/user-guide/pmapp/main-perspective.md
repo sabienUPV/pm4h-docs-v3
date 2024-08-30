@@ -19,8 +19,8 @@ Figure 23.a. Node information tooltip
 Figure 23.b Transition information tooltip
 
 Right-clicking on a node or transition brings a contextual menu with two options (figure 24)
-*	**Show Information**. For more information about this check [Node Information perspective](./node-information-perspective) or [Transition Information perspective](./transition-information-perspective).
-*	**Show Traces**. Opens a new perspective with information on the traces that traverse that node or transition. For more information check [Trace Information perspective](./trace-information-perspective).
+*	**Show Information**. For more information about this check [Node Information perspective](./node-information-perspective.md) or [Transition Information perspective](./transition-information-perspective.md).
+*	**Show Traces**. Opens a new perspective with information on the traces that traverse that node or transition. For more information check [Trace Information perspective](./trace-information-perspective.md).
 
 ![contextual_menu](/img/menu-secundario.png "contextual_menu")
 
@@ -42,7 +42,7 @@ The actions that can be performed in each process view – that is, in each tab 
         *	TPA Node Stats (\*.csv). Stats associated to nodes in the process view.
         *	TPA Node Durations (\*.csv). Duration of the nodes in the process view.
         *	TPA Trace Stats (\*.csv). Stats associated to traces in the process view.
-    * It is also possible to save the process view as an ECSV file. For more information check: [ECSV Format](../experiment-designer/factories/ecsv)
+    * It is also possible to save the process view as an ECSV file. For more information check: [ECSV Format](../experiment-designer/factories/ecsv.md)
 
 ![save_as](/img/save-as.png "save_as")
 
@@ -74,9 +74,9 @@ On the other hand, this perspective allows taking certain actions about process 
 
 Figure 29. Left menu
 
-*   **Groups (1)**. From the preloaded data, select a subset of that data to generate new process views for easier analysis. For more information check [Groups menu](./menu/groups-menu)
-*   **Enhancements (2)**. Here you can add colour maps to the present process views. This helps to highlight different aspects. For more information check [Enhancements menu](./menu/enhancement-menu)
-*	**Statistics & Charts (3)**. In this menu you can configure the stats to show, choosing the type of data to show and the right representation (graphics, tables…). For more information check [Satistics and Charts menu](./menu/statistics-and-charts-menu)
-*	**Other views (4)**. In addition to the **MAIN** perspective, other perspectives are available from this menu. For more information, check [Other views menu](./menu/other-views-menu)
-*	**More options (5)**. This menu shows information regarding the experiment. For more information check [More options menu](./menu/more-options-menu)
+*   **Groups (1)**. From the preloaded data, select a subset of that data to generate new process views for easier analysis. For more information check [Groups menu](./menu/groups-menu.md)
+*   **Enhancements (2)**. Here you can add colour maps to the present process views. This helps to highlight different aspects. For more information check [Enhancements menu](./menu/enhancement-menu.md)
+*	**Statistics & Charts (3)**. In this menu you can configure the stats to show, choosing the type of data to show and the right representation (graphics, tables…). For more information check [Satistics and Charts menu](./menu/statistics-and-charts-menu.md)
+*	**Other views (4)**. In addition to the **MAIN** perspective, other perspectives are available from this menu. For more information, check [Other views menu](./menu/other-views-menu.md)
+*	**More options (5)**. This menu shows information regarding the experiment. For more information check [More options menu](./menu/more-options-menu.md)
 

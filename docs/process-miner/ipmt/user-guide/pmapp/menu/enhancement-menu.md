@@ -90,7 +90,7 @@ Figure 39. Statistical significance
 
 ## Abstractions (3)
 
-Finally, we have the abstractions that, as in [Groups menu](./groups-menu), allows launching a new experiment of a % of the total data in a new PMApp.
+Finally, we have the abstractions that, as in [Groups menu](./groups-menu.md), allows launching a new experiment of a % of the total data in a new PMApp.
 Although it is not necessary to always extract such data. When selecting the % of the total data that we want to be shown, these are highlighted in the process view automatically, leaving the rest of the data that is discarded a more subdued color, as shown in figure 40.
 
 :::warning

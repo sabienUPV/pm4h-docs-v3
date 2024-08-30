@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Filters
 
-A filter is an object that can modify and select traces from the log and prepare it for the Discovery ([Log processor stage of the data rodeo process](../../../overview/phases/research/data-rodeo#data-rodeo-process)).
+A filter is an object that can modify and select traces from the log and prepare it for the Discovery ([Log processor stage of the data rodeo process](../../../overview/phases/research/data-rodeo.md#data-rodeo-process)).
 
 A filter follows the interface *IPMLogSafeFilter*, but in order to have a complete implementation it is highly recommended to build the filter inheriting from *pm4h.filter.PMLogParallelFilter* :
 

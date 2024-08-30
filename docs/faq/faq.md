@@ -18,7 +18,7 @@ Once PMApp starts, the **OPEN** button opens the wizard. Notice the **SAVE** but
 
 ## I have organised the nodes the way I like. Why do not they show up in the same place the next time I run the experiment?
 
-You can organise nodes in a process view as you wish. To make these changes permanent, you must save a position file. This option is available in the menu of each of the process view tabs. For more information about how to do this, check [Main perspective](../perspectives/main-perspective#menu-of-a-process-view).
+You can organise nodes in a process view as you wish. To make these changes permanent, you must save a position file. This option is available in the menu of each of the process view tabs. For more information about how to do this, check [Main perspective](../perspectives/main-perspective.md#menu-of-a-process-view).
 
 ## Why does PMApp stop responding sometimes?
 
@@ -29,8 +29,8 @@ It may be one of two reasons:
 
 ## What can I do so my experiment does not take so long every time I run it?
 
-Once an experiment is run, you can save it with the **_Save Experiment_** option in the **MORE OPTIONS** menu ([More Options menu](../perspectives/menu/more-options-menu)). This way, the next time you run the experiment, you can use the saved file with extension ".rnr.zip". This file contains many of the calculations that are needed to run an experiment, so running from a .rnr.zip will speed up the process.
+Once an experiment is run, you can save it with the **_Save Experiment_** option in the **MORE OPTIONS** menu ([More Options menu](../perspectives/menu/more-options-menu.md)). This way, the next time you run the experiment, you can use the saved file with extension ".rnr.zip". This file contains many of the calculations that are needed to run an experiment, so running from a .rnr.zip will speed up the process.
 
 ## Can I rename the tabs that appear when launching a new group?
 
-Yes, each of these tabs show a process view, in which a menu is available, where one of the options is to show a screen with information about the process. On that screen there is a field called **_Name_** that can be modified to change the name of the tab. For more information see [Main perspective](../perspectives/main-perspective#menu-of-a-process-view).
+Yes, each of these tabs show a process view, in which a menu is available, where one of the options is to show a screen with information about the process. On that screen there is a field called **_Name_** that can be modified to change the name of the tab. For more information see [Main perspective](../perspectives/main-perspective.md#menu-of-a-process-view).

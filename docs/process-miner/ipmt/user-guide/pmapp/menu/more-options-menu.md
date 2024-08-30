@@ -34,7 +34,7 @@ For each CSV file information is provided  about row data validation (1) and tra
 
 **(2) EXTRACTING TRACES**
 *	There is a second round of verifications based on the Line Validators at the Ingestor editor. For example, undesirable values for TimeStamps fields are NULL or EMPTY.
-*	In the **Skipped Data** tab the lines rejected can be consulted and the Warning message included in the Line Validators of the [Ingestor editor](../../experiment-designer/ingestor-editor).
+*	In the **Skipped Data** tab the lines rejected can be consulted and the Warning message included in the Line Validators of the [Ingestor editor](../../experiment-designer/ingestor-editor.md).
 
 ![Ingestor report 1](/img/ingestion-report-1.png "Ingestor report 1")
 

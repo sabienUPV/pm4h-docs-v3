@@ -10,7 +10,7 @@ Figure 5. Ingestor editor
 
 ## Factory area
 
-**(1)**. In the Factory area of the [Experiment designer](./intro) is indicated the data sources where the available fields (blocks) in this section, come from (e.g. headers from a CSV file). 
+**(1)**. In the Factory area of the [Experiment designer](./intro.md) is indicated the data sources where the available fields (blocks) in this section, come from (e.g. headers from a CSV file). 
 
 *	By hovering the mouse on each field, you can see the initial 6 values. 
 
@@ -28,9 +28,9 @@ Figure 5. Ingestor editor
 	*	A Validator validates a specific field of a row. 
 	*	The extra blank field **(7)** can be used to add more values to validate the field, for example, entry_date must be different to NULL or blank. 
 	*	When any Validator determines that a row should be accepted or discarded the process stops, being that row never checked again, passing to the next row. 
-	*	Line Validators have a Warning parameter where a text can be added to indicate why the row was rejected. This warning will appear in the [Ingestion report](../pmapp/menu/more-options-menu#ingestion-report).
+	*	Line Validators have a Warning parameter where a text can be added to indicate why the row was rejected. This warning will appear in the [Ingestion report](../pmapp/menu/more-options-menu.md#ingestion-report).
 	*	If the Validator does not have a decision (it returns null) the ingestor passes to the next validator. 
-	*	Usually, the last validator block is an [AcceptbyDefault](../../../generaldocs/reference/api/blocks/line-validators/accept-by-default) or a [RejectbyDefault](../../../generaldocs/reference/api/blocks/line-validators/reject-by-default) validator block that accepts or rejects the row, respectively. 
+	*	Usually, the last validator block is an [AcceptbyDefault](../../../generaldocs/reference/api/blocks/line-validators/accept-by-default.md) or a [RejectbyDefault](../../../generaldocs/reference/api/blocks/line-validators/reject-by-default.md) validator block that accepts or rejects the row, respectively. 
 *	**(B) Variables tab**. Category **Variable Operations** of the section **(3)**. You may generate new variables that will turn into virtual fields (those fields do not exist in the log, but they may be used in the next tabs as if they existed there). 
 	*	New variables may be created by combining other variables, extracting information from a field, etc. For example, to calculate the age of the patient at the moment of the attention as in the following picture.
 	![Variables tab](/img/ingestor-editor-variables.png "Variables tab")
@@ -44,7 +44,7 @@ Figure 5. Ingestor editor
 *	**(D) Trace Data tab**. Category **Trace data** of the section **(3)**. Trace data that are added as metadata to the trace is set up here. 
 	*	This enables to perform specific statistics afterwards.
 *	**(2) Filters**. Traces may be filtered by (none,) one or more blocks.
-	*	These are the same filters as in the [data rodeo process](../../../overview/phases/research/data-rodeo#data-rodeo-process). 
+	*	These are the same filters as in the [data rodeo process](../../../overview/phases/research/data-rodeo.md#data-rodeo-process). 
 	*	Filters are applied to the Logs. 
 	*	Every ingestor generates one Log.	
 

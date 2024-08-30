@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Knowledge file
 
-**Knowledge.zconf** file contains general semantic concepts to be used across [PMApp](../../pmapp/intro). Concepts can be consumed in the [Experiment designer](../intro) and from the semantic picker option is available in the [Ingestor editor](../ingestor-editor).
+**Knowledge.zconf** file contains general semantic concepts to be used across [PMApp](../../pmapp/intro.md). Concepts can be consumed in the [Experiment designer](../intro.md) and from the semantic picker option is available in the [Ingestor editor](../ingestor-editor.md).
 
-The semantic picker is a drag and drop tool. The available concepts can be consumed in the Events ([SemanticEventMapperExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/semantic-event-mapper-extractor) and [NamedEventExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/named-event-extractor) blocks) and Trace Data ([SemanticDiscretizedData2](../../../../generaldocs/reference/api/blocks/trace-data-extractor/semantic-discretized-data2) and [SemanticMapperData2](../../../../generaldocs/reference/api/blocks/semantic-data-extractor/semantic-mapper-data2) blocks) tabs of the Ingestor editor.
+The semantic picker is a drag and drop tool. The available concepts can be consumed in the Events ([SemanticEventMapperExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/semantic-event-mapper-extractor.md) and [NamedEventExtractor](../../../../generaldocs/reference/api/blocks/event-extractor/named-event-extractor.md) blocks) and Trace Data ([SemanticDiscretizedData2](../../../../generaldocs/reference/api/blocks/trace-data-extractor/semantic-discretized-data2.md) and [SemanticMapperData2](../../../../generaldocs/reference/api/blocks/semantic-data-extractor/semantic-mapper-data2.md) blocks) tabs of the Ingestor editor.
 
 Semantic concepts in the Knowledge file can be:
 
@@ -23,13 +23,13 @@ Figure 9. Knowledge.zconf file
 
 ## Other semantic information
 
-*	**EventsMapperFilter**. After executing an experiment, the EventMapperFilter block identifies the different nodes name that have been generated in the experiment, and allows to edit the names. For further information go [EventsMapperFilter](../../../../generaldocs/reference/api/blocks/filters/events-mapper-filter).
+*	**EventsMapperFilter**. After executing an experiment, the EventMapperFilter block identifies the different nodes name that have been generated in the experiment, and allows to edit the names. For further information go [EventsMapperFilter](../../../../generaldocs/reference/api/blocks/filters/events-mapper-filter.md).
 
 ![EventsMapperFilter](/img/events-mapper-filter.png "EventsMapperFilter")
 
 Figure 10. EventsMapperFilter block
 
-*	**Non-semantic order**. Non-semantic values come from the event and trace data from the ingestor. The Non-semantic order block allows to order these values. For further information go [Non-semantic order](../../../../generaldocs/reference/api/blocks/filters/non-semantic-order).
+*	**Non-semantic order**. Non-semantic values come from the event and trace data from the ingestor. The Non-semantic order block allows to order these values. For further information go [Non-semantic order](../../../../generaldocs/reference/api/blocks/filters/non-semantic-order.md).
 
 ![Non-semantic order](/img/non-semantic-order.png "Non-semantic order")
 

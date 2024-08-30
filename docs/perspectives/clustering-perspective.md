@@ -6,8 +6,8 @@ sidebar_position: 6
 
 **CLUSTERING** is a perspective that groups data and generates different process views (or groups), as shown in figure 1.
 
-*	These process views display the same options as the ones described in [Main screen](./main-perspective).
-*	It contains an **_Enhancement_** menu, similar to that of the **MAIN** perspective (check [Enhancements menu](./menu/enhancement-menu)), that applies changes to all process views in the **clustering**.
+*	These process views display the same options as the ones described in [Main screen](./main-perspective.md).
+*	It contains an **_Enhancement_** menu, similar to that of the **MAIN** perspective (check [Enhancements menu](./menu/enhancement-menu.md)), that applies changes to all process views in the **clustering**.
 *	In addition to the options already introduced in said menu, in the process views generated during **clustering** you can edit the name by clicking on the pencil icon **(1)**. The name that appears by default corresponds to a generic name made up of:
     * The word «Log»,
     * followed by the group number (e.g.: «Log_3»),
@@ -18,7 +18,7 @@ sidebar_position: 6
 
 Figure 1. Clustering
 
-*	The second button in the menu (figure 2) allows saving each of the process views as a new category for the **MAIN** perspective (figure 3) (check [Groups menu](./menu/groups-menu)).
+*	The second button in the menu (figure 2) allows saving each of the process views as a new category for the **MAIN** perspective (figure 3) (check [Groups menu](./menu/groups-menu.md)).
 *	Figure 4 shows the result after the new category and groups have been added.
 *	You can edit the names of the groups (the process views generated during **_Clustering_**) and add them as a new category to the **GROUPS** menu, as many times as you want.
 

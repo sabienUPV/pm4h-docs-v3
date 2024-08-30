@@ -6,7 +6,7 @@ sidebar_position: 4
 
 In order to use a dll for customizing PMApp you should follow the following steps:
 
-* Open [Settings](../../ipmt/user-guide/settings) tool
+* Open [Settings](../../ipmt/user-guide/settings.md) tool
 
 * Open *General* category
 

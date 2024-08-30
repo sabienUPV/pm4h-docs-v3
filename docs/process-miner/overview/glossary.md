@@ -50,7 +50,7 @@ Information that helps to understand or measure the characteristics or intensity
 
 ## Interactive Process Indicator (IPI)
 
-IPIs are Process Indicators produced as a result of the application of the interactive paradigm with professionals. IPIs not only provide a way to understand, measure, and optimize the process but they also allow the expert to navigate through the model discovering the features and specificities of the process. Those are provided as enhanced [Process Views](glossary#process-view).
+IPIs are Process Indicators produced as a result of the application of the interactive paradigm with professionals. IPIs not only provide a way to understand, measure, and optimize the process but they also allow the expert to navigate through the model discovering the features and specificities of the process. Those are provided as enhanced [Process Views](#process-view).
 
 ## Interactive Process Mining (IPM)
 

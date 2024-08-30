@@ -22,7 +22,7 @@ In the first session carried out between the **process miner**, and the **clinic
 
 It is not mandatory to have an **IT professional** in this first session, but it is recommended to understand what kind of data is needed and in which format.
 
-The **IT professional** needs to identify: **ID**, **[activity](../glossary#activity) name**, and **start timestamp**. _End timestamp_ is desirable although not mandatory. **Additional information** that enriches the process is also welcome: age, gender, tests, costs, diagnosis, PROMs, PREMs, PRIMs ICHOM sets… 
+The **IT professional** needs to identify: **ID**, **[activity](../glossary.md#activity) name**, and **start timestamp**. _End timestamp_ is desirable although not mandatory. **Additional information** that enriches the process is also welcome: age, gender, tests, costs, diagnosis, PROMs, PREMs, PRIMs ICHOM sets… 
 
 ## First data rodeo
 

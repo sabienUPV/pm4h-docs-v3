@@ -6,7 +6,7 @@ sidebar_position: 6
 
 In order to consult the status of an experiment launched remotely you should follow the following steps:
 
-* Open [Remote experiments](../../ipmt/user-guide/remote-experiments) tool
+* Open [Remote experiments](../../ipmt/user-guide/remote-experiments.md) tool
 
 * Login with the corresponding credential (if required)
 
