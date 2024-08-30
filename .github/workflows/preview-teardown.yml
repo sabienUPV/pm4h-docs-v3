@@ -47,6 +47,37 @@ jobs:
               repo: context.repo.repo
             });
 
+      - name: Add comment to PR
+        uses: actions/github-script@v7
+        if: failure()
+        with:
+          script: |
+            const actionUrl = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}';
+            const body = `
+            ### ❌🗑️ Preview Website Teardown Failed
+
+            The preview website **failed to be torn down**. Please take one of the following actions:
+
+            1. **Re-run the job** to attempt the teardown again.
+            2. **Manually tear down** the preview site
+              - Command: \`surge teardown ${{ env.DOCUSAURUS_URL }}\`
+              - You need to have the [Surge CLI](https://surge.sh/help/getting-started-with-surge) installed,
+                and you need to be logged in with the same account used to deploy the preview site.
+
+            If neither action is taken, the preview site will remain available until one of the above steps is completed.
+
+            **Note:** If you re-open the PR, the preview site will be re-deployed in the same location, overwriting the previous deployment. This means you shouldn't have to worry about multiple instances.
+
+            For more details, please check the [GitHub Action log](${actionUrl}).
+            `;
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            })
+
   delete-previous-deployments:
     name: Delete previous deployments
     needs: teardown
