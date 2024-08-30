@@ -115,15 +115,15 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/intro/intro',
+              to: 'docs/intro/intro',
             },
             {
               label: 'Perspectives',
-              to: '/perspectives/main-perspective',
+              to: 'docs/perspectives/main-perspective',
             },
             {
               label: 'FAQ',
-              to: '/faq/frequent-asked-question',
+              to: 'docs/faq/frequent-asked-question',
             },
           ],
         },
