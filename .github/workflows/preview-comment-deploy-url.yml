@@ -34,5 +34,4 @@ jobs:
               The \`preview\` label is automatically added or removed to indicate if the preview is live.
 
               **_Note:_** You can also view the deployment status in this PR. If you see an 'active deployment' message at the bottom, it means the preview is live. You can click on it for more details. If the deployment failed, a failure message should appear in the 'Checks' section.`
-              `
             })
