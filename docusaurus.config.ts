@@ -122,6 +122,10 @@ const config: Config = {
               to: 'docs/perspectives/main-perspective',
             },
             {
+              label: 'Process Miner',
+              to: 'docs/process-miner/overview/intro',
+            },
+            {
               label: 'FAQ',
               to: 'docs/faq',
             },
