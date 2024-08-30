@@ -27,7 +27,7 @@ The Runner property attribute has some configuration posibilities that support y
 - **Name**: The Name indicates the name that the block will have in the block directory.
 - **Description**: It is a short description of the functionality provided by the block.
 - **Default**: It is the value that the property should have by default. This value should be **Constant**
-- **Domain**: This allow to define a set of values that define the domain of the value, that is the posible values. (See [Selection](#selections))
+- **Domain**: This allow to define a set of values that define the domain of the value, that is the posible values. (See [Selection](selections.md))
 - **Level**: It represents the position of the property in the block. There are several posibilities:
     - *PreviousContent*: This puts the property before the name of the block.
     - *Prepanel*: This puts the property inmediately after the name of the block.
@@ -36,8 +36,8 @@ The Runner property attribute has some configuration posibilities that support y
     - *Hidden*: This represents a Hidden property that does not apperar in the fields.
 - **Behavior**: This field indicates how the property should to behave for supporting process miners in the configuration of the block. The selection of the behavior defines the type of block used for populate the property. There are several posibilities:
     - *Text*: Uses a TextBox for populate the property. In primitives (string, double,...), the type is automatically converted, and also in Arrays. In arrays the values can be defined splited by *;* or, only in array case, allows the addition of multiple textbox in the same property.  This is the **Default** value.
-    - *Variable*: In case of ingestion, this indicate that the value is not literal and represents a variable (See [Variables](#variables))
-    - *Selection*: This allows use a Combo Box for selecting a specific value from a List (See [Selection](#selections))
+    - *Variable*: In case of ingestion, this indicate that the value is not literal and represents a variable (See [Variables](variables.md))
+    - *Selection*: This allows use a Combo Box for selecting a specific value from a List (See [Selection](selections.md))
     - *MultilineText*: Represents a long textbox and provide a multiline textbox for filling the text.
-    - *ExternalResourceFile*: Allows the definition of external files to read or write information from de blocks (See [External resource files](#external-resource-files))
-    - *DataProvider*: (See [Data providers](#data-providers))
+    - *ExternalResourceFile*: Allows the definition of external files to read or write information from de blocks (See [External resource files](external-resource-files.md))
+    - *DataProvider*: (See [Data providers](data-providers.md))
