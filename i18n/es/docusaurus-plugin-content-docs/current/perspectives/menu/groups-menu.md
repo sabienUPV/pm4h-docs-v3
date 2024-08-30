@@ -45,5 +45,5 @@ Figura 2. Nuevas vistas de proceso (pestañas) basado en el nuevo grupo
 *   Con el botón **_Delete groups_** se limpia la selección previamente hecha en **_Categories_**.
 
 :::info
-Los grupos pueden ser renombrados, lo que hará que el nombre que aparece en la pestaña cambie. Esto se puede hacer desde el menú que hay en cada vista de proceso (cada pestaña), pinchando sobre el botón de información se muestra una pantalla con información de la vista del proceso. Para más información ir a [¿Qué encontrar en la perspectiva Main?](../main-perspective)
+Los grupos pueden ser renombrados, lo que hará que el nombre que aparece en la pestaña cambie. Esto se puede hacer desde el menú que hay en cada vista de proceso (cada pestaña), pinchando sobre el botón de información se muestra una pantalla con información de la vista del proceso. Para más información ir a [¿Qué encontrar en la perspectiva Main?](../main-perspective.md)
 :::

@@ -45,5 +45,5 @@ Figure 2. New process views tabs based on the group selection
 :::info
 The tabs can be renamed. This can be done from the top menu in each process view (each tab), clicking on the info button.
 
-For more information, go to [Main perspective](../main-perspective).
+For more information, go to [Main perspective](../main-perspective.md).
 :::

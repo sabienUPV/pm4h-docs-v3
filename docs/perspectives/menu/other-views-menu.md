@@ -15,7 +15,7 @@ This menu displays as many collapsible sections as perspectives. In this case th
 	*   **_Heuristic_**, which accounts for the time spent in each event in addition to the shape of the process view.
 	*   **_Levenshtein_**, which does not generalize, does not account for autocycles but does account for the order of execution of events.
 *	Once parameters are configured **(2)**, you can click the **_Run clustering_** button.
-*	This will open a new tab with the **Clustering** perspective. For more information check [Clustering perspective](../clustering-perspective).
+*	This will open a new tab with the **Clustering** perspective. For more information check [Clustering perspective](../clustering-perspective.md).
 
 ![clustering_menu](/img/clustering-menu-numeros.png "clustering_menu")
 

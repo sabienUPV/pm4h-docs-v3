@@ -15,7 +15,7 @@ En este menú aparecerán tantos desplegables como perspectivas existan, en este
     *   _**Heuristic**_ (heurística), donde se tiene en cuenta el tiempo empleado en cada evento, además de la forma de la vista del proceso.
     *   **_Levenshtein_**, no generaliza, no tiene en cuenta los autociclos, pero si el orden en el que se ejecutan los eventos.
 *   Una vez configurados los parámetros **(2)**, hacer clic en el botón _**Run clustering.**_
-*   Esto hará que se abra una nueva pestaña con la perspectiva de **clustering**. Para más información consultar [Perspectiva Clustering](../clustering-perspective).
+*   Esto hará que se abra una nueva pestaña con la perspectiva de **clustering**. Para más información consultar [Perspectiva Clustering](../clustering-perspective.md).
 
 ![clustering - menu - numeros](/img/clustering-menu-numeros.png "clustering – menu – numeros")
 

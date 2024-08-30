@@ -57,4 +57,4 @@ Figura 5. Mensaje informando de la existencia de una nueva versión de PMApp
 
 Figura 6. Guardar como
 
-Una vez finalizada la ejecución del experimento, PMApp estará lista para trabajar. Para más información consultar [¿Qué encontrar en la pantalla principal?](./main-window) 
+Una vez finalizada la ejecución del experimento, PMApp estará lista para trabajar. Para más información consultar [¿Qué encontrar en la pantalla principal?](./main-window.md) 

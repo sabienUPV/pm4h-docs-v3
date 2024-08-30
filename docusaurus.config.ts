@@ -98,7 +98,7 @@ const config: Config = {
         },
         {
           type: 'doc',
-          docId: 'faq/frequent-asked-question',
+          docId: 'faq/faq',
           position: 'left',
           label: 'FAQ',
         },
@@ -115,15 +115,19 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/intro/intro',
+              to: 'docs/intro', // Note: If the file is named 'intro.md' in the 'intro' folder, the path should be 'docs/intro', not 'docs/intro/intro', because it seems that Docusaurus is able to detect that the file is named the same as the folder, so it won't double the name in the URL.
             },
             {
               label: 'Perspectives',
-              to: '/perspectives/main-perspective',
+              to: 'docs/perspectives/main-perspective',
+            },
+            {
+              label: 'Process Miner',
+              to: 'docs/process-miner/overview/intro',
             },
             {
               label: 'FAQ',
-              to: '/faq/frequent-asked-question',
+              to: 'docs/faq',
             },
           ],
         },
