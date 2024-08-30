@@ -56,7 +56,7 @@ In the **Settings** step, must be checked **Automatically check for updates from
 
 ![Publish step07](/img/clickonce-step07.png)
 
-* In this case, there is a server to host PMApp internal projects and inside **updates** folder a different folder for each PMApp personalization. How to create that folder and upload files is explained in the next section [Upload new versions to the server](#upload-new-versions-to-the-server). Url construction example: `http://<PM4HLab_Server_IP>/updates/<PMApp_Personalization_Name>/`. Also, it is needed to define an initial application version number and check **Automatically increment revision**. This increments the number each time a publication is done but can be selected manually if it is needed.
+* In this case, there is a server to host PMApp internal projects and inside **updates** folder a different folder for each PMApp personalization. How to create that folder and upload files is explained in the next section [Upload the new version](#upload-the-new-version). Url construction example: `http://<PM4HLab_Server_IP>/updates/<PMApp_Personalization_Name>/`. Also, it is needed to define an initial application version number and check **Automatically increment revision**. This increments the number each time a publication is done but can be selected manually if it is needed.
 * If there are extra files to be included in the application, these can be added by pressing **Application Files**. This shows a list of the files included automatically. If the file is not included in the list, it should be checked **Show all files** to search for it and select **Include** at the dropdown menu. In the next image, there is an example to include a file with semantic knowledge.
 
 ![Publish step07a](/img/clickonce-step07a.png)
